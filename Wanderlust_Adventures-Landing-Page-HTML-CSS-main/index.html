@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wanderlust Adventures</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="Images/logo.jpg" alt="Wanderlust Adventures Logo">
+                Wanderlust Adventures
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="destinations.html">Destinations</a></li>
+                    <li><a href="packages.html">Packages</a></li>
+                    <li><a href="aboutus.html">About Us</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="packages.html" class="cta">Book Now</a></li>
+                </ul>
+            </nav>
+            </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <h1><b>Explore the World with Wanderlust Adventures</b></h1>
+            <p><u><i>Unique travel experiences tailored just for you</i></u></p>
+            <a href="destinations.html" class="cta">Explore Our Destinations</a>
+        </div>
+    </section>
+
+    <section class="aboutUS">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>At Wanderlust Adventures, we ignite your passion for exploration by crafting unforgettable travel experiences that go beyond the ordinary.</p>
+            <hr style="border-top: 1px dotted #ccc;">
+            <ul>
+                <li><strong>Unique Itineraries:</strong> We curate itineraries that delve deeper, exploring off-the-beaten-path locations and hidden treasures.</li>
+                <li><strong>Local Expertise:</strong> Our tours are led by passionate local guides who will provide you with an insider's perspective on the culture, history, and way of life.</li>
+                <li><strong>Sustainable Travel:</strong> We are committed to responsible tourism practices that protect the environment and empower local communities.</li>
+                <li><strong>Unforgettable Experiences:</strong> From heart-pounding adventures to enriching cultural encounters, we craft experiences that will stay with you for a lifetime.</li>
+            </ul>
+            <img src="Images/aboutUS.jpeg" alt="About Us Image">
+        </div>
+    </section>
+
+    <section class="featured-destinations">
+        <div class="container">
+            <h2>Top Destinations</h2>
+            <div class="destinations-grid">
+                <div class="destination">
+                    <a href="#"><img src="Images/paris.jpg" alt="Paris"></a>
+                    <h3>Paris</h3>
+                    <p>Experience the romance and charm of the City of Lights.</p>
+                </div>
+                <div class="destination">
+                    <a href="#"><img src="Images/bali.jpg" alt="Bali"></a>
+                    <h3>Bali</h3>
+                    <p>Discover the serene beauty of Bali's beaches and temples.</p>
+                </div>
+                <div class="destination">
+                    <a href="#"><img src="Images/nyc.webp" alt="New York"></a>
+                    <h3>New York</h3>
+                    <p>Dive into the vibrant energy of the Big Apple.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="packages">
+        <div class="container">
+            <h2>Our Travel Packages</h2>
+            <div class="packages-carousel">
+                <div class="package-item">
+                    <a href="#"><img src="Images/alps.avif" alt="Adventure in the Alps"></a>
+                    <h3>Adventure in the Alps</h3>
+                    <p>Explore the breathtaking mountains of Switzerland. Hike through stunning scenery, visit charming villages, and experience the thrill of adventure sports.</p>
+                    <span class="price">Starting from $1,999</span>
+                    <a href="#" class="btn">Learn More</a>
+                </div>
+                <div class="package-item">
+                    <a href="#"><img src="Images/japan.jpg" alt="Cultural Delights of Japan"></a>
+                    <h3>Cultural Delights of Japan</h3>
+                    <p>Immerse yourself in the rich history and vibrant traditions of Japan. Visit ancient temples, experience a tea ceremony, and explore bustling cities.</p>
+                    <span class="price">Starting from $2,499</span>
+                    <a href="#" class="btn">Learn More</a>
+                </div>
+            </div>
+            <a href="#" class="cta">View All Packages</a>
+        </div>
+    </section>
+
+    <section class="testimonials">
+        <div class="container">
+            <h2>What Our Customers Say</h2>
+            <div class="testimonials-carousel">
+                <div class="testimonial">
+                    <p>"A life-changing experience! Wanderlust Adventures took me on an incredible journey through [Destination Name]. Their local guides were amazing, and the itinerary was perfectly planned. I wouldn't hesitate to recommend them to anyone looking for an unforgettable adventure." - Sarah M., Traveller</p>
+                </div>
+                <div class="testimonial">
+                    <p>"I highly recommend Wanderlust Adventures! They took care of everything, from planning to execution, and made sure I had an amazing time. Their tours are truly unique and offer a glimpse into the authentic culture of the destination." - David L., Explorer</p>
+                </div>
+                <div class="testimonial">
+                    <p>"The best travel company I've ever used! Wanderlust Adventures is professional, knowledgeable, and passionate about travel. They exceeded my expectations in every way. Thank you for an incredible trip!" - Meena S., Wanderer</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="booking">
+        <div class="container">
+            <h2>Book Your Adventure</h2>
+            <form>
+                <input type="text" placeholder="Name" required>
+                <input type="email" placeholder="Email" required>
+                <input type="text" placeholder="Destination" required>
+                <input type="date" placeholder="Travel Dates" required>
+                <select required>
+                    <option value="">Select Package</option>
+                    <option value="adventure">Adventure Package</option>
+                    <option value="relaxation">Relaxation Package</option>
+                    <option value="cultural">Cultural Package</option>
+                </select>
+                <button type="submit" class="cta">Submit</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-links">
+                <a href="#">Home</a>
+                <a href="#">Destinations</a>
+                <a href="#">Packages</a>
+                <a href="#">About Us</a>
+                <a href="#">Contact</a>
+            </div>
+            <div class="social-media">
+                <a href="#">Facebook</a>
+                <a href="#">Twitter</a>
+                <a href="#">Instagram</a>
+            </div>
+            <p>© 2024 Wanderlust Adventures. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- <script src="scripts.js"></script> -->
+</body>
+</html>

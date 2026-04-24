@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Destinations - Wanderlust Adventures</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="Images/logo.jpg" alt="Wanderlust Adventures Logo">
+                Wanderlust Adventures
+            </div>
+            <nav>
+                <ul>
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="destinations.html">Destinations</a></li>
+                  <li><a href="packages.html">Packages</a></li>
+                  <li><a href="aboutus.html">About Us</a></li>
+                  <li><a href="contact.html">Contact</a></li>
+                  <li><a href="packages.html" class="cta">Book Now</a></li>
+                </ul>
+              </nav>
+            </div>
+    </header>
+    <section class="hero">
+        <div class="container">
+            <h1><b>Contact Us</b></h1>
+            <p><u><i>Get in touch with us</i></u></p>
+        </div>
+    </section>
+
+    <main>
+        <section class="contact">
+            <div class="container">
+                <h2>Get in Touch with Us!</h2>
+                <div class="contact-info">
+                    <p><strong>Address:</strong> 123 Wanderlust St, Adventure City, Travel Country</p>
+                    <p><strong>Phone Number:</strong> +123 456 7890</p>
+                    <p><strong>Email Address:</strong> info@wanderlustadventures.com</p>
+                    <p><strong>Business Hours:</strong> Monday - Friday, 9:00 AM - 5:00 PM</p>
+                </div>
+                <div class="contact-form">
+                    <form action="submit_form.php" method="post">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" required>
+                        
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                     
+                        <label for="subject">Subject:</label>
+                        <input type="text" id="subject" name="subject" required>
+                    
+                    <div>    
+                        <label for="message">Message:<br></label>
+                        <textarea id="message" name="message" rows="3" required></textarea>
+                    </div>
+                    <br/><br/>
+                    <div>    
+                        <button type="submit">Submit</button>
+                    </div>
+                    </form>
+                </div>
+                <div class="map">
+                    <h3>Our Location</h3>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.8354345092744!2d144.95373631568095!3d-37.81627974201737!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642af0f11fd81%3A0xf5772f9f0e5d7ec6!2s123%20Wanderlust%20St%2C%20Adventure%20City%2C%20Travel%20Country!5e0!3m2!1sen!2sus!4v1609484444231!5m2!1sen!2sus" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                </div>
+            </div>
+        </section>
+        <section class="customer-service">
+            <div class="container">
+                <h3>Customer Service</h3>
+                <ul>
+                    <li><a href="faq.html">Frequently Asked Questions (FAQ)</a></li>
+                    <li><a>Live Chat</a> (Available Monday - Friday, 9:00 AM - 5:00 PM)</li>
+                </ul>
+            </div>
+        </section>
+    </main>
+    <section class="booking">
+        <div class="container">
+            <h2>Book Your Adventure</h2>
+            <form>
+                <input type="text" placeholder="Name" required>
+                <input type="email" placeholder="Email" required>
+                <input type="text" placeholder="Destination" required>
+                <input type="date" placeholder="Travel Dates" required>
+                <select required>
+                    <option value="">Select Package</option>
+                    <option value="adventure">Adventure Package</option>
+                    <option value="relaxation">Relaxation Package</option>
+                    <option value="cultural">Cultural Package</option>
+                </select>
+                <button type="submit" class="cta">Submit</button>
+            </form>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <div class="footer-links">
+                <a href="index.html">Home</a>
+                <a href="destinations.html">Destinations</a>
+                <a href="packages.html">Packages</a>
+                <a href="aboutus.html">About Us</a>
+                <a href="contact.html">Contact</a>
+            </div>
+            <div class="social-media">
+                <a href="#">Facebook</a>
+                <a href="#">Twitter</a>
+                <a href="#">Instagram</a>
+            </div>
+            <p>© 2024 Wanderlust Adventures. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
